@@ -17,7 +17,7 @@ export default function Home({ data }: PageProps<Post[]>) {
   return (
     <Layout>
       <Head>
-        <title>Fresh App</title>
+        <title>Fresh Posts</title>
       </Head>
       <main class="max-w-lg mx-auto py-4">
         <h1 class="text-2xl">Posts</h1>

@@ -20,7 +20,8 @@ export default function Home({ data }: PageProps<Post[]>) {
         <title>Fresh App</title>
       </Head>
       <main class="max-w-lg mx-auto py-4">
-        <div class="flex flex-col space-y-2">
+        <h1 class="text-2xl">Posts</h1>
+        <div class="flex flex-col space-y-2 mt-2">
           {data.map((post) => (
             <>
               <a
